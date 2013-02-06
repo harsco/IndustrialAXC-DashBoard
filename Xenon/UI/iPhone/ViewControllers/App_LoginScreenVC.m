@@ -79,6 +79,13 @@
     self.passWordField.delegate = self;
     
     
+    //added test alert
+    
+    UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Test Alert" message:@"You are seeing Test" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"OK", nil];
+    [alert show];
+    [alert release];
+    
+    
 }
 
 - (void)viewDidUnload
