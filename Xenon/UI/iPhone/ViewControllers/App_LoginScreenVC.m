@@ -78,12 +78,13 @@
     [self.passWordField setKeyboardAppearance:UIKeyboardAppearanceAlert];
     self.passWordField.delegate = self;
     
+    //removed Test Alert
     
     //added test alert
     
-    UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Test Alert" message:@"You are seeing Test" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"OK", nil];
-    [alert show];
-    [alert release];
+//    UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Test Alert" message:@"You are seeing Test" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"OK", nil];
+//    [alert show];
+//    [alert release];
     
     
 }
